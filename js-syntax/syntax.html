@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Syntax</title>
+</head>
+
+<body>
+    <p id="aritmathic"></p>
+
+    <script>
+        function myFunction() {
+            let x, y, z;
+            x = 10;
+            y = 'string';
+            z = 5;
+            let message;
+
+            message = parseInt(x) + parseInt(y);
+            if (isNaN(message)) {
+                message = parseInt(x) + parseInt(z);
+            }
+
+            return message;
+
+        }
+        document.getElementById("aritmathic").innerHTML = myFunction(); 
+    </script>
+</body>
+
+</html>
