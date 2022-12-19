@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Syntax</title>
+</head>
+
+<body>
+    <p id="aritmathic"></p>
+
+    <script>
+        const person = {
+            firstName: "Jhon",
+            lastName: "Doe",
+            fullName: function () {
+                return this.firstName + " " + this.lastName;
+            }
+        };
+
+        alert(person.fullName());
+    </script>
+</body>
+
+</html>
